@@ -1,0 +1,67 @@
+<!-- contact page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- making the webpage responsive -->
+    <title>Gameboy Mansion</title>
+    <link rel="stylesheet" type="text/css" href="gameboy.css">
+    <link rel="Contact" href="gameboy-contact.html">
+    <link rel="Reviews" href="gameboy-reviews.html">
+    <link rel="Ratings" href="userRatingPage.html">
+    <link rel="Compare" href="gameboy-comparison.html">
+    <link rel="Releases" href="gameboy-releases.html">
+    <script src="gameboy-java.js" defer></script>
+</head>
+<body>
+
+<!-- title and slogan -->
+    
+    <header>
+        <img src="images/gameboylogo.PNG" alt="Gameboy Mansion Logo" style="width: 20%; position: right;">
+        <h1>GAMEBOY MANSION</h1>
+        <h3 style="font-style: italic;">'..Playing for all.'</h3>
+    </header>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index-gameboy-mansion-backup.html">Home</a>
+          <a href="gameboy-reviews.html">Reviews</a>
+          <a href="gameboy-contact.html">Contact</a>
+          <a href="userRatingPage.html">Ratings</a>
+          <a href="gameboy-comparison.html">Compare</a>
+          <a href="gameboy-releases.html">Releases</a>
+        </div>
+      </div>
+
+<main>
+
+
+    <div class="container-Contact">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Want to give us your opinion? Leave us a message!</p>
+    
+            <form id="contactForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Gameboy Mansion. All rights reserved.</p>
+    </footer>
+
+</main>
+
+</body>
+</html>

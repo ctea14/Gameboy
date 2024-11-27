@@ -1,0 +1,75 @@
+<!-- user rating page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- making the webpage responsive -->
+    <title>Gameboy Mansion</title>
+    <link rel="stylesheet" type="text/css" href="gameboy.css">
+    <link rel="Contact" href="gameboy-contact.html">
+    <link rel="Reviews" href="gameboy-reviews.html">
+    <link rel="Ratings" href="userRatingPage.html">
+    <link rel="Compare" href="gameboy-comparison.html">
+    <link rel="Releases" href="gameboy-releases.html">
+    <script src="gameboy-java.js" defer></script>
+</head>
+
+
+<body>
+
+    <!-- title-->
+    <header>
+        <img src="images/gameboylogo.PNG" alt="Gameboy Mansion Logo" style="width: 20%; position: right;">
+        <h1>GAMEBOY MANSION</h1> 
+        <h3 style="font-style: italic;">'..Playing for all.'</h3>
+    </header>
+
+<!-- buttons for navbar-->
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index-gameboy-mansion-backup.html">Home</a>
+      <a href="gameboy-reviews.html">Reviews</a>
+      <a href="gameboy-contact.html">Contact</a>
+      <a href="userRatingPage.html">Ratings</a>
+      <a href="gameboy-comparison.html">Compare</a>
+      <a href="gameboy-releases.html">Releases</a>
+    </div>
+  </div>
+  
+
+  <h1 style="text-align: center;">We invite you to rate your favorite games!</h1>
+<img src="https://uploads-us-west-2.insided.com/klaviyo-en/attachment/54f7a46b-8076-485a-a7ee-5fb82af483ac_thumb.png" alt="share your thoughts" style="width: 500px; height: 250px; display: block; margin: auto;">
+<div class="container-rating">
+    <form id="gameRatingForm">
+        <div class="form-group">
+            <label for="gameName">Game Name:</label>
+            <input type="text" id="gameName" name="gameName" required>
+        </div>
+        <div class="form-group">
+            <label for="rating">Rating:</label>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit Rating">
+        </div>
+    </form>
+    <div id="message"></div>
+</div>
+
+
+    <!-- copyright symbol -->
+    <footer>
+        <p>&copy; 2024 Gameboy Mansion. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

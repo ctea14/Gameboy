@@ -1,0 +1,114 @@
+<!-- Game comparison -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- making the webpage responsive -->
+    <title>Gameboy Mansion</title>
+    <link rel="stylesheet" type="text/css" href="gameboy.css">
+    <link rel="stylesheet" type="text/css" href="gameboy.css">
+    <link rel="Contact" href="gameboy-contact.html">
+    <link rel="Reviews" href="gameboy-reviews.html">
+    <link rel="Ratings" href="userRatingPage.html">
+    <link rel="Compare" href="gameboy-comparison.html">
+    <link rel="Releases" href="gameboy-releases.html">
+    <script src="gameboy-java.js" defer></script>
+</head>
+
+<body>
+
+    <!-- title -->
+    <header>
+        <img src="images/gameboylogo.PNG" alt="Gameboy Mansion Logo" style="width: 20%; position: right;">
+        <h1>GAMEBOY MANSION</h1> 
+        <h3 style="font-style: italic;">'..Playing for all.'</h3>
+    </header>
+
+<!-- buttons for navbar -->
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index-gameboy-mansion-backup.html">Home</a>
+      <a href="gameboy-reviews.html">Reviews</a>
+      <a href="gameboy-contact.html">Contact</a>
+      <a href="userRatingPage.html">Ratings</a>
+      <a href="gameboy-comparison.html">Compare</a>
+      <a href="gameboy-releases.html">Releases</a>
+    </div>
+  </div>
+
+<!-- Price comparison calculator -->
+
+  <h2 style="text-align: center;">Try our price comparison tool!</h2>
+  <h3 style="text-align: center;">Are you stuck deciding between two games? we have the pefect decision-maker for you!</h3>
+  <div class="calculator">
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="calculateDifference()">Calculate Difference</button>
+    <p id="result"></p>
+
+
+    <h3 style="text-align: center;">Check out the price difference in these games!</h3>
+
+<!-- Game list -->
+<div class="games-list">
+    <div class="game-comp">
+        <img class="game-image" src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA 5">
+        <div class="game-details">
+            <div class="game-title">Grand Theft Auto 5</div>
+            <div class="game-price">£19.00</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Watch_Dogs_Legion_cover_art.webp" alt="Watch Dogs Legion">
+        <div class="game-details">
+            <div class="game-title">Watch Dogs Legion</div>
+            <div class="game-price">£24.00</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://m.media-amazon.com/images/M/MV5BZmMzZjA0MzAtNDFmZC00NDU2LThiNDYtZDk3Y2I3YTlmMTU0XkEyXkFqcGdeQXVyMTc5NDExNDQ4._V1_.jpg" alt="Cuphead">
+        <div class="game-details">
+            <div class="game-title">Cuphead</div>
+            <div class="game-price">£15.00</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://image.api.playstation.com/vulcan/ap/rnd/202208/1012/SyX3pwXDmPfzSY6KsdCU6dfk.jpg" alt="Dead Island 2">
+        <div class="game-details">
+            <div class="game-title">Dead island 2</div>
+            <div class="game-price">£25.99</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/Ah7Ar9MU0r1BBlzAUflmhyQP.png" alt="Hogwarts Legacy">
+        <div class="game-details">
+            <div class="game-title">Hogwarts Legacy</div>
+            <div class="game-price">£19.99</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://cdn.cdkeys.com/700x700/media/catalog/product/d/y/dying-light-2-stay-human-pc-game-steam-cover_1_.jpg" alt="Dying light 2">
+        <div class="game-details">
+            <div class="game-title">Dying Light 2</div>
+            <div class="game-price">£59.99</div>
+        </div>
+    </div>
+    <div class="game-comp">
+        <img class="game-image" src="https://upload.wikimedia.org/wikipedia/en/e/ed/Lego_Indiana_Jones_cover.jpg" alt="Indiana Jones">
+        <div class="game-details">
+            <div class="game-title">Lego Indiana Jones</div>
+            <div class="game-price">£7.99</div>
+        </div>
+    </div>
+</div>
+
+    <!-- copyright symbol -->
+    <footer>
+        <p>&copy; 2024 Gameboy Mansion. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

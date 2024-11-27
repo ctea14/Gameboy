@@ -1,0 +1,106 @@
+<!-- homepage-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- making the webpage responsive -->
+    <title>Gameboy Mansion</title>
+    <link rel="stylesheet" type="text/css" href="gameboy.css">
+    <link rel="Contact" href="gameboy-contact.html">
+    <link rel="Reviews" href="gameboy-reviews.html">
+    <link rel="Ratings" href="userRatingPage.html">
+    <link rel="Compare" href="gameboy-comparison.html">
+    <link rel="Releases" href="gameboy-releases.html">
+    <script src="gameboy-java.js" defer></script>
+</head>
+
+<body>
+
+    <!-- title-->
+    <header>
+        <img src="images/gameboylogo.PNG" alt="Gameboy Mansion Logo" style="width: 20%; position: right;">
+        <h1>GAMEBOY MANSION</h1> 
+        <h3 style="font-style: italic;">'..Playing for all.'</h3>
+    </header>
+
+<!-- buttons for navbar-->
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index-gameboy-mansion-backup.html">Home</a>
+      <a href="gameboy-reviews.html">Reviews</a>
+      <a href="gameboy-contact.html">Contact</a>
+      <a href="userRatingPage.html">Ratings</a>
+      <a href="gameboy-comparison.html">Compare</a>
+      <a href="gameboy-releases.html">Releases</a>
+    </div>
+  </div>
+
+  <h2>Fan's most anticipated!</h2>
+  <div class="countdown-container">
+    <h2 class="countdown-title">Star Wars Outlaws Release</h2>
+    <p id="star-wars"></p>
+  </div>
+
+  <p>The release of the Star Wars Outlaws is counting down here!
+    don't worry, we'll keep you updated!</p>
+
+
+    <main>
+        <div class="reviews">
+            <img src="images/cyberpunk.jpeg" alt="New game releases" style="width: 30%; float: right; margin-left: 20px;">
+            <div style="text-align: right;"></div>
+            <h2 style="text-align: right;">Latest Review</h2>
+            <h3 style="text-align: right;">Cyberpunk 2077</h3>
+            <p style="text-align: right;">This modern and futuristic game released in 2077
+                is truely ahead of its time, however with a lot of
+                backlash on inital release due to a large number 
+                of bugs the game has been pushed off the radar.
+            </p>
+        </div>
+    
+        <div class="controversial-review">
+            <img src="images/rockstar.png" alt="New game releases" style="width: 30%; position: center;">
+            <h2>Our most controversial review!</h2>
+            <h3>Rockstar are releasing on perfect time</h3>
+            <p>It's important to note that the development of a game
+                like GTA 6 involves a significant amount of time and 
+                resources. While some fans may feel impatient for a new 
+                installment, others understand that Rockstar's commitment 
+                to quality and innovation often leads to longer development 
+                cycles. Until an official announcement is made, opinions 
+                on the timing of GTA 6's release may differ among players 
+                and industry observers.
+            </p>
+        </div>
+
+        <div class="updates">
+            <img src="images/gamerelease.jpg" alt="New game releases" style="width: 30%; position: center;">
+            <h2>What's to come?</h2>
+            <p>We have high expectations for 2024!
+            </p>
+        </div>
+
+    </main>
+
+    <!-- pie chart source -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <div class="container">
+        <div class="text-container">
+            <p>Here at Gameboy Mansion, we value our users' opinions. Therefore, we source our reviews from professional critics to provide you with the finest data when researching a game.</p>
+        </div>
+        <div class="chart-container">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+    <!-- copyright symbol -->
+    <footer>
+        <p>&copy; 2024 Gameboy Mansion. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
